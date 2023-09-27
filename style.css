@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+.bg
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icons
+{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.icons img
+{
+    width: 100%;
+}
+
+.icons p
+{
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins' , sans-serif;
+    margin-bottom: 10px;
+}
+.taskbar
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 4px 0;
+    z-index: 10;
+}
+
+#explorer-icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+    padding-left: 7px;
+}
+
+#right-taskbar
+{
+    position: absolute;
+    right: 0;
+}
+
+#start-menu img,#search img
+{
+    width: 500px;
+    position: absolute;
+    bottom: -650px;
+    left: calc(50% - 250px);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+
+
+#widgets img
+{
+    width: 400px;
+    position: absolute;
+    top: 30px;
+    left: -650px;
+    border-radius: 30px;
+    transition: .5s;
+}
+#explorer img,#store img
+{
+    width: 50%;
+    position: absolute;
+    top: -650px;
+    left: calc(50% - 300px);
+    transition: .5s;
+}
